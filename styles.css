@@ -1,0 +1,91 @@
+.draggable {
+    
+    cursor: move;
+
+    
+    position: absolute;
+
+    
+    user-select: none;
+    padding: 10px;
+    height: 20px;
+    width: 20px;
+    
+}
+
+div.gallery {
+    margin: 5px;
+    float: left;
+    width: 400px;
+    position: relative;
+    margin-top: 20%;
+    margin-left: 3%;
+   
+    
+  }
+  div.gallery a {
+     cursor:help;
+  }
+  
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    
+  }
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 1440px;
+    padding-bottom: 5%;
+  }  
+
+  #background {
+    background-image: url("img/handleitv2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #background1 {
+    background-image: url("img/page1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #end {
+    background-image: url("img/finalscreen.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 20%;
+  }
+
+  #heart {
+    background-image: url("img/wheredoes.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 18%;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+
+  .footer a {
+    text-decoration: none;
+    
+  }
+  .footer a:hover {
+    color: rgb(255, 0, 0);
+  }
+  .footer a:visited {
+    color: rgb(0, 0, 0);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+  }
+  
